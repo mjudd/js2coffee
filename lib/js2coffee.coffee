@@ -680,7 +680,8 @@ class Builder
       @build n.children[0]
 
     else
-      list = _.map n.children, (item) => @build item
+      chilen = _.sortBy n.children, (child) -> child.src() ## Sort by property name
+      list = _.map chilen, (item) => @build item
 
       c = new Code @, n
       c.scope list.join("\n")
