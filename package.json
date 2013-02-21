@@ -2,8 +2,8 @@
   "name": "js2coffee",
   "description": "JavaScript to CoffeeScript compiler",
   "keywords": ["javascript", "coffeescript", "language", "compiler"],
-  "author": "Rico Sta. Cruz",
-  "version": "0.1.3",
+  "author": "Mark Judd",
+  "version": "0.1.4",
   "engines": {
     "node": ">=0.4.0"
   },
@@ -17,7 +17,7 @@
   "homepage": "http://ricostacruz.com/js2coffee",
   "repository": {
     "type": "git",
-    "url": "git://github.com/rstacruz/js2coffee.git"
+    "url": "git://github.com/mjudd/js2coffee.git"
   },
   "devDependencies": {
     "glob": ">= 0.0.1"
